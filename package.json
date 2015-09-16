@@ -1,5 +1,5 @@
 {
-  "name": "file-log",
+  "name": "filelogs",
   "version": "0.0.1",
   "description": "日志输出并存文件",
   "main": "index.js",
