@@ -1,0 +1,16 @@
+{
+  "name": "file-log",
+  "version": "0.0.1",
+  "description": "日志输出并存文件",
+  "main": "index.js",
+  "dependencies": {
+    "file-stream-rotator": "^0.0.6",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liuxiaodong <liuxiaodong1989@gmail.com>",
+  "license": "ISC"
+}
