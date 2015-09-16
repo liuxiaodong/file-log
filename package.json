@@ -1,7 +1,7 @@
 {
   "name": "filelogs",
-  "version": "0.0.1",
-  "description": "日志输出并存文件",
+  "version": "0.0.2",
+  "description": "write log by date",
   "main": "index.js",
   "dependencies": {
     "file-stream-rotator": "^0.0.6",
@@ -11,6 +11,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+ "keywords": [
+    "log",
+    "logfile",
+    "logfiles",
+    "log-file"
+  ],  
   "author": "liuxiaodong <liuxiaodong1989@gmail.com>",
   "license": "ISC"
 }

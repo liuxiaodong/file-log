@@ -4,7 +4,6 @@ var Log = require('./lib/log');
 
 var logLevelList = ['verbose', 'debug', 'info', 'warning', 'error'];
 
-// 默认配置
 var defaultOptions = {
   name: '',
   dir: '',
@@ -15,7 +14,7 @@ var defaultOptions = {
 /**
   * require('./log')(opts)
   * 
-  * @param {String} name 文件名称，默认 base-service
+  * @param {String} name 
   *
   * @return {Function} log
   */
