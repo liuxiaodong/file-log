@@ -11,6 +11,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuxiaodong/file-log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuxiaodong/file-log/issues"
+  },
+ "homepage": "https://github.com/liuxiaodong/file-log",  
  "keywords": [
     "log",
     "logfile",
