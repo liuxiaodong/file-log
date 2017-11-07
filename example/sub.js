@@ -7,8 +7,8 @@ const logger = FileLog({
     writeFile: false,
     dir: './',
     name: 'test',
-    subscribe: function(msg) {
-        console.log(msg);
+    subscribe: function(levelStr, msg) {
+        console.log(levelStr, msg);
     }
 })
 
