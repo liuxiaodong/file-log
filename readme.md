@@ -7,19 +7,25 @@
 ```
 	npm install filelogs --save
 
-	var options = {
+	const options = {
 		name: 'name', // filename
-		dir: '/home/test/logs', // log file directory
 		level: 'debug', //  ['verbose', 'debug', 'info', 'warning', 'error']
-		output: false // true or false
+		output: true // defalut true
+		writeFile: false // default false
+		dir: '/home/test/logs', // log file directory, if writeFile is true
 	}
 
-	var log = requier('filelogs')(options);
+	const logger = requier('filelogs')(options);
 
-	log.debug('test');
+	logger.verbose('verbose');
+	logger.debug('debug');
+	logger.info('info');
+	logger.warning('warning');
+	logger.error('error');
 
-	output:
-
-	[2015-09-16T14:36:16+08:00] <name> DEBUG test
 ```
+
+`output:`
+
+<img src="./docs/output.jpeg" />
 

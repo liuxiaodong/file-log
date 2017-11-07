@@ -1,6 +1,6 @@
 {
   "name": "filelogs",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "write log by date",
   "main": "index.js",
   "dependencies": {
