@@ -1,10 +1,9 @@
 {
   "name": "filelogs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "write log by date",
   "main": "index.js",
   "dependencies": {
-    "file-stream-rotator": "^0.0.6",
     "moment": "^2.10.6"
   },
   "devDependencies": {},

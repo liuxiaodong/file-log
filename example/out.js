@@ -6,7 +6,7 @@ const logger = FileLog({
     output: true,
     writeFile: true,
     dir: './',
-    name: 'name'
+    name: 'name'    
 })
 
 logger.verbose('verbose');
