@@ -1,10 +1,11 @@
 {
   "name": "filelogs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "write log by date",
   "main": "index.js",
   "dependencies": {
-    "moment": "^2.10.6"
+    "moment": "^2.10.6",
+    "quick-format-unescaped": "^1.1.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,13 +18,13 @@
   "bugs": {
     "url": "https://github.com/liuxiaodong/file-log/issues"
   },
- "homepage": "https://github.com/liuxiaodong/file-log",  
- "keywords": [
+  "homepage": "https://github.com/liuxiaodong/file-log",
+  "keywords": [
     "log",
     "logfile",
     "logfiles",
     "log-file"
-  ],  
+  ],
   "author": "liuxiaodong <liuxiaodong1989@gmail.com>",
   "license": "ISC"
 }
