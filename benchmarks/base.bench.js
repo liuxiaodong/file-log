@@ -5,16 +5,17 @@ const fs = require('fs')
 const dest = fs.createWriteStream('./pino.log')
 const pino = require('pino')({
   // prettyPrint: true
-  extreme: true
+  // extreme: true
 }, dest)
 const logger = FileLog({
     level: 'verbose',
     output: false,
-    prettyPrint: true,
+    prettyPrint: false,
     writeFile: true,
     dir: './',
     name: 'name',
-    extreme: true
+    extreme: false
+    // stream: dest
 })
 
 const max = 10
