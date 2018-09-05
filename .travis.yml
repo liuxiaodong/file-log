@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "v5.3.0"
+  - "v8.6.0"
+  - "v9.11.2"
+  - "v10.9.0"
+sudo: required
+after_script:
+  npm run cov
